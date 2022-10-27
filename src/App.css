@@ -1,0 +1,77 @@
+header {
+  display : flex;
+  align-items:center;
+  justify-content: space-between;
+  background: var(--color);
+  padding: 1rem 2rem;
+  ;
+}
+
+header a {
+  color: #820933;
+  text-decoration:none;
+}
+
+header .logo {
+  font-size: 1.25rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header ul li a {
+  font-weight: 700;
+  display:inline-block;
+  margin-right: 2rem;
+}
+/* en caso de necesitar manipular los iconos del header para armonizar visualizacion
+header ul li:nth-child(1) a {
+  display:flex;
+}
+
+/*header ul li:nth-child(1) a i {
+  display:inline-block;
+  margin-right:0.25rem;
+}
+*/
+main {
+  width: 100%;
+  max-width: 1200px;
+  /* margin de 6 rem arriba y abajo y auto en los costados para que se centre en pantallas grandes*/
+  margin: 6rem auto;
+  /*para que en pantallas pequenas deje un pequeno margen al costado*/
+  padding: 0 2rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1, Form {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: var(--shadow)
+}
+
+main h1 span {
+  font-weight: 700;
+}
+
+main .subtitulo {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+main img {
+  width: 100%;
+  max-width: 500px;
+}
+
+form {
+  box-shadow: var(--shadow)
+}
